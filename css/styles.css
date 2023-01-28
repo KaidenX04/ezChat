@@ -1,0 +1,28 @@
+#chat{
+    height: 85%;
+}
+
+#message-container{
+    height: 10%;
+}
+
+#auth-container{
+    height: 5%;
+}
+
+#message{
+    height: 100%;
+    padding-left: 1em;
+    width: 80%;
+}
+
+#send, #connect{
+    width: 20%;
+    height: 100%;
+    border-radius: 0px;
+}
+
+.inactive, .inactive:active, .inactive:focus, .inactive:hover{
+    background-color: rgb(110, 115, 133);
+    color: rgb(179, 179, 179);
+}
